@@ -25,7 +25,7 @@ public class googleTests extends Basis {
         GoogleSearchPF googleTest1 = PageFactory.initElements(driver,GoogleSearchPF.class);
         googleTest1.findWord("гладиолус");
         Assertions.assertTrue(googleTest1.getSearchResult().stream().anyMatch(x->x.getText().contains("Шпажник — Википедия")),
-                "Информация по запросу не найден");
+                "Информация по запросу не найдена");
 
     }
 
@@ -36,7 +36,7 @@ public class googleTests extends Basis {
         googleTest2.findWord("гладиолус");
         googleTest2.getListElement();
         Assertions.assertTrue(googleTest2.getSearchResult().stream().anyMatch(x -> x.getText().contains("Шпажник — Википедия")),
-                "Информация по запросу не найден");
+                "Информация по запросу не найдена");
     }
 }
 
