@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
-public class openBank extends Basis {
+public class openBankTest extends Basis {
 
     @Test
     public void openTest() {
