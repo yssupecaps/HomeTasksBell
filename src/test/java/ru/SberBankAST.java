@@ -49,6 +49,7 @@ public class SberBankAST {
         for (Map.Entry<String, Map<String, String>> entry : menu.entrySet()) {
             System.out.println(entry.getKey()+" : "+entry.getValue());
             }
+        
         }
 
 }
